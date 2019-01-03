@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: properties
+    @IBOutlet var v_startButton: UIButton!
+    @IBOutlet var v_gameTitle: UILabel!
+    
+    // MARK: Actions
+    @IBAction func startButtonPressed(_ sender: UIButton) {
+        
+//        v_gameTitle.text = "Someting else!!"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

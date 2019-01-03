@@ -13,6 +13,7 @@
 		DF879A3721D3355900D53E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF879A3621D3355900D53E29 /* Assets.xcassets */; };
 		DF879A3A21D3355900D53E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF879A3821D3355900D53E29 /* LaunchScreen.storyboard */; };
 		DF879A4521D3355A00D53E29 /* Matching_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879A4421D3355A00D53E29 /* Matching_GameTests.swift */; };
+		DF879A5421D5335100D53E29 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879A5321D5335100D53E29 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DF879A4021D3355A00D53E29 /* Matching GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matching GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF879A4421D3355A00D53E29 /* Matching_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching_GameTests.swift; sourceTree = "<group>"; };
 		DF879A4621D3355A00D53E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF879A5321D5335100D53E29 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				DF879A3621D3355900D53E29 /* Assets.xcassets */,
 				DF879A3821D3355900D53E29 /* LaunchScreen.storyboard */,
 				DF879A3B21D3355A00D53E29 /* Info.plist */,
+				DF879A5321D5335100D53E29 /* GameViewController.swift */,
 			);
 			path = "Matching Game";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF879A3221D3355700D53E29 /* ViewController.swift in Sources */,
+				DF879A5421D5335100D53E29 /* GameViewController.swift in Sources */,
 				DF879A3021D3355700D53E29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
